@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .img {
   width: 500px;
@@ -92,4 +91,66 @@ ul li a {
   color: #666666;
   margin-left: 8px;
   margin-top: 8px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 30px;
+}
+.quote {
+  align-self: center;
+
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: light;
+  margin-bottom: 20px;
+}
+.speaker {
+  align-self: flex-end;
+  margin-right: 140px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  padding: 15px;
+  margin: 55px;
+  justify-content: space-around;
+  background-color: #3882f6;
+  border-radius: 20px;
+  width: 50%;
+}
+.part1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part2 button {
+  background-color: #3882f6;
+  border: 3px solid white;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: white;
 }
